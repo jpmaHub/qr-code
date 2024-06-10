@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import QRCodeCard from "./components/QRCodeCard";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <>
+      <QRCodeCard />
+      <footer className="attribution">
+        Challenge by{" "}
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
         </a>
-      </header>
-    </div>
+        . Coded by <a href="https://github.com/jpmaHub">Jaseera Abubacker</a>.
+      </footer>
+    </>
   );
 }
 
