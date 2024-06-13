@@ -12,10 +12,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 
 ## Overview
-
-### Screenshot
-![desktop view](src/assets/desktop.png)
-![mobile view](src/assets/mobile.png)
+QR code component 
 
 ### Links
 
