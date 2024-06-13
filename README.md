@@ -17,7 +17,7 @@ QR code component
 ### Links
 
 - Solution URL: [QR-CODE github](https://github.com/jpmaHub/qr-code)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live URL](jpmahub.github.io/qr-code/)
 
 ### Built with
 

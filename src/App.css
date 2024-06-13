@@ -14,3 +14,8 @@
   color: hsl(228, 45%, 44%);
 }
 
+@media screen and (max-width: 375px) {
+  #root {
+    padding-top: 10px;
+  }
+}
