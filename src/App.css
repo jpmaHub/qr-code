@@ -1,5 +1,7 @@
 #root {
   margin: 0 auto;
+  font-family: "Outfit" sans-serif;
+  padding-top: 40px;
 }
 
 .attribution {
@@ -12,10 +14,3 @@
   color: hsl(228, 45%, 44%);
 }
 
-.card-qr-media {
-  height: "40vh";
-}
-
-.card-qr {
-  max-width: "20vw";
-}

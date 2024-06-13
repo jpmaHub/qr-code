@@ -9,28 +9,27 @@ const theme = createTheme();
 
 theme.typography.h6 = {
   color: 'hsl(218, 44%, 22%)',
-  fontFamily: "Outfit sans-serif",
   fontOpticalSizing: "auto",
   fontWeight: 700,
   fontStyle: "normal",
+  fontSize: "22px",
 };
 
 theme.typography.body1 = {
   paddingTop: '10px',
   color:"hsl(220, 15%, 55%)",
-  fontFamily: "Outfit sans-serif",
   fontOpticalSizing: "auto",
   fontWeight: 400,
   fontStyle: "normal",
-  fontSize: "15px",
+  fontSize: "18px",
 };
 
 export default function QRCodeCard() {
   return (
     <ThemeProvider theme={theme}>
-    <Card sx={{ width: "300px", borderRadius: 3, boxShadow: 3 }}>
+    <Card sx={{ width: "320px", height: "497px",borderRadius: 4, boxShadow: 3 }}>
       <CardMedia
-        sx={{ height: "280px", borderRadius: 3, m: 1.3 }}
+        sx={{ height: "288px",  width: "288px", borderRadius: 4, m: 2 }}
         image={QRCode}
         title="qr code"
       />
