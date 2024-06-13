@@ -21,15 +21,15 @@ theme.typography.body1 = {
   fontOpticalSizing: "auto",
   fontWeight: 400,
   fontStyle: "normal",
-  fontSize: "18px",
+  fontSize: "17px",
 };
 
 export default function QRCodeCard() {
   return (
     <ThemeProvider theme={theme}>
-    <Card sx={{ width: "320px", height: "497px",borderRadius: 4, boxShadow: 3 }}>
+    <Card sx={{ width: "320px", height: "497px",borderRadius: 3, boxShadow: 3 }}>
       <CardMedia
-        sx={{ height: "288px",  width: "288px", borderRadius: 4, m: 2 }}
+        sx={{ height: "288px",  width: "288px", borderRadius: 4.5, m: 2 }}
         image={QRCode}
         title="qr code"
       />
